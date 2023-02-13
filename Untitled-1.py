@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLay
 
 from random import randint
 
-
+app = QApplication([])
 
 main_win = QWidget()
 main_win.setWindowTitle("Вікно")
